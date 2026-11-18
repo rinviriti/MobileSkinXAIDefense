@@ -1,0 +1,1 @@
+The real packaged-runtime device test is preserved. No raw images or base64 fixture bytes are distributed. Install the genuine model and private development fixtures, then enable MSX_DEVICE_FIXTURES=true. See docs/IOS_DEPLOYMENT_GUIDE.md from repository root.

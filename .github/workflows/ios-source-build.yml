@@ -1,0 +1,22 @@
+name: Manual iOS source build without model weights
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ios-source-build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.50.0'
+          channel: stable
+      - run: bash packages/mobileskinxai_codec/build_ios_codec.sh
+        working-directory: app/flutter
+      - run: flutter pub get
+        working-directory: app/flutter
+      - run: pod install
+        working-directory: app/flutter/ios
+      - run: flutter build ios --release --no-codesign
+        working-directory: app/flutter

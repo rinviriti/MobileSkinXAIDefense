@@ -1,0 +1,28 @@
+{
+  "files": 1080,
+  "directories": {
+    ".github": 2,
+    ".gitignore": 1,
+    "README.md": 1,
+    "app": 642,
+    "deployment": 35,
+    "docs": 40,
+    "evaluation": 133,
+    "figures": 37,
+    "final_training": 39,
+    "notebooks": 3,
+    "requirements-training.lock.txt": 1,
+    "requirements-training.txt": 1,
+    "requirements.txt": 1,
+    "research": 59,
+    "scripts": 75,
+    "tests": 1,
+    "training": 9
+  },
+  "research_pngs": 56,
+  "editable_tables": 10,
+  "datasets_included": false,
+  "trained_weights_included": false,
+  "raw_clinical_images_included": false,
+  "fresh_history": true
+}

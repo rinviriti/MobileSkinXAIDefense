@@ -1,0 +1,14 @@
+{
+  "reason": "Three aggregate dataset figures were present locally and indexed but excluded from original ZIP by its broad dataset/ ignore pattern. Recovered only approved aggregate count charts and matching CSV/SVG; no dataset files.",
+  "sha256": {
+    "figures/dataset/PAD_Patient_Disjoint_Class_and_Melanoma_Support.csv": "b680aa9b2c374fbbf7d0752245ab9fd4c6f31d9000e1ea0046a6fc5cc8dcd2f0",
+    "figures/dataset/PAD_Patient_Disjoint_Class_and_Melanoma_Support.svg": "b15d1ddaa594d0c0beb999e8ec7da6968b1752464b7ddeb48f9fd8a3d6f5d78d",
+    "figures/dataset/PAD_Patient_Disjoint_Class_and_Melanoma_Support.png": "77c6010d35417094ac176c067208653786e8a30a877c223a70f4534e006106bc",
+    "figures/dataset/Frozen_Dataset_Partitions.csv": "0430e06ebc87699bd0aeb0a5eb1f81e3d9d675117874f062079f79b5b5796b22",
+    "figures/dataset/Frozen_Dataset_Partitions.svg": "35f9b3cac2d49d121d44aa9a21c97b232b3267b260de5d4b04807aee9a32cdc5",
+    "figures/dataset/Frozen_Dataset_Partitions.png": "908454eec0c218b36a37f04ceb77f305fb913cd8c1ae13246920f91fd69c5f86",
+    "figures/dataset/ISIC_vs_PAD_Class_Distribution.csv": "ba98225998f4759b9cd776facc7de2ab41f5b13f37d7f08599f752f9833f699b",
+    "figures/dataset/ISIC_vs_PAD_Class_Distribution.svg": "082a127fa74e8e34592180214cb4dd85214f496d5740eb8f8676812689145393",
+    "figures/dataset/ISIC_vs_PAD_Class_Distribution.png": "813394e2b4b9ee32c8c70593451d474fb5c6fe6da8464cd6b8f19a4919e7fdc8"
+  }
+}

@@ -1,0 +1,201 @@
+[1/10] Creating directories for 'jpeg_native'
+[2/10] No download step for 'jpeg_native'
+[3/10] No update step for 'jpeg_native'
+[4/10] No patch step for 'jpeg_native'
+[5/10] Performing configure step for 'jpeg_native'
+-- The C compiler identification is Clang 22.1.8
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /tmp/mobileskinxai-native-tools/ziglang/zig - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- CMAKE_BUILD_TYPE = Release
+-- VERSION = 3.2.0, BUILD = 20261118
+-- 64-bit build (x86_64)
+-- CMAKE_INSTALL_PREFIX = /opt/libjpeg-turbo
+-- CMAKE_INSTALL_BINDIR = bin (/opt/libjpeg-turbo/bin)
+-- CMAKE_INSTALL_DATAROOTDIR =  (/opt/libjpeg-turbo)
+-- CMAKE_INSTALL_DOCDIR = doc (/opt/libjpeg-turbo/doc)
+-- CMAKE_INSTALL_INCLUDEDIR = include (/opt/libjpeg-turbo/include)
+-- CMAKE_INSTALL_LIBDIR = lib64 (/opt/libjpeg-turbo/lib64)
+-- CMAKE_INSTALL_MANDIR = man (/opt/libjpeg-turbo/man)
+-- Shared libraries disabled (ENABLE_SHARED = 0)
+-- Static libraries enabled (ENABLE_STATIC = 1)
+-- Arithmetic decoding support enabled (WITH_ARITH_DEC = 1)
+-- Arithmetic encoding support enabled (WITH_ARITH_ENC = 1)
+-- TurboJPEG API library enabled (WITH_TURBOJPEG = 1)
+-- TurboJPEG Java Native Access interfaces (TurboJPEG/JNA) disabled
+   (WITH_JNA = )
+-- Command-line tools disabled (WITH_TOOLS = 0)
+-- Regression tests disabled (WITH_TESTS = 0)
+-- Emulating libjpeg API/ABI v6.2 (WITH_JPEG7 = 0, WITH_JPEG8 = 0)
+-- libjpeg API shared library version = 62.4.0
+-- Compiler flags =  -O3 -DNDEBUG
+-- Linker flags =  
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Performing Test HAVE_BUILTIN_CTZL
+-- Performing Test HAVE_BUILTIN_CTZL - Success
+-- Performing Test HIDDEN_WORKS
+-- Performing Test HIDDEN_WORKS - Success
+-- HIDDEN = __attribute__((visibility("hidden")))
+-- Performing Test INLINE_WORKS
+-- Performing Test INLINE_WORKS - Success
+-- INLINE = __inline__ __attribute__((always_inline)) (FORCE_INLINE = 1)
+-- Performing Test HAVE_THREAD_LOCAL
+-- Performing Test HAVE_THREAD_LOCAL - Success
+-- THREAD_LOCAL = __thread
+-- Performing Test HAVE_VERSION_SCRIPT
+-- Performing Test HAVE_VERSION_SCRIPT - Success
+-- Linker supports GNU-style version scripts
+-- CMAKE_EXECUTABLE_SUFFIX = 
+-- SIMD extensions: None (WITH_SIMD = 0)
+-- System-supplied libspng disabled (WITH_SYSTEM_SPNG = 0)
+-- System-supplied zlib disabled (WITH_SYSTEM_ZLIB = 0)
+-- RPM architecture = x86_64, DEB architecture = amd64
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/MobileSkinXAIDefense/.private/codec/vendor_build
+[6/10] Performing build step for 'jpeg_native'
+[1/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcapistd-16.c.o
+[2/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcapistd-12.c.o
+[3/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcapistd-8.c.o
+[4/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jcapimin.c.o
+[5/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jccoefct-8.c.o
+[6/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jccoefct-12.c.o
+[7/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcdctmgr-8.c.o
+[8/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jccolor-8.c.o
+[9/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jccolor-12.c.o
+[10/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jccolor-16.c.o
+[11/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcdctmgr-12.c.o
+[12/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcdiffct-8.c.o
+[13/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcdiffct-12.c.o
+[14/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcdiffct-16.c.o
+[15/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jcicc.c.o
+[16/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jcinit.c.o
+[17/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jclhuff.c.o
+[18/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jclossls-12.c.o
+[19/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jclossls-8.c.o
+[20/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcmainct-8.c.o
+[21/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcmainct-12.c.o
+[22/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jclossls-16.c.o
+[23/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcmainct-16.c.o
+[24/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jcomapi.c.o
+[25/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jcmaster.c.o
+[26/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jcmarker.c.o
+[27/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jcparam.c.o
+[28/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcprepct-8.c.o
+[29/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jcphuff.c.o
+[30/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcprepct-12.c.o
+[31/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcprepct-16.c.o
+[32/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcsample-8.c.o
+[33/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcsample-12.c.o
+[34/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jcsample-16.c.o
+[35/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdapimin.c.o
+[36/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jctrans.c.o
+[37/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdapistd-8.c.o
+[38/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdapistd-16.c.o
+[39/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdapistd-12.c.o
+[40/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdatadst.c.o
+[41/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdatasrc.c.o
+[42/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdcoefct-8.c.o
+[43/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdcoefct-12.c.o
+[44/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdcolor-8.c.o
+[45/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdcolor-16.c.o
+[46/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jddctmgr-8.c.o
+[47/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jchuff.c.o
+[48/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jddctmgr-12.c.o
+[49/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdcolor-12.c.o
+[50/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jddiffct-8.c.o
+[51/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jddiffct-12.c.o
+[52/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jddiffct-16.c.o
+[53/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdicc.c.o
+[54/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdinput.c.o
+[55/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdlhuff.c.o
+[56/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdlossls-8.c.o
+[57/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdhuff.c.o
+[58/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdlossls-12.c.o
+[59/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdlossls-16.c.o
+[60/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdmainct-8.c.o
+[61/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdmainct-12.c.o
+[62/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdmainct-16.c.o
+[63/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdmaster.c.o
+[64/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdmarker.c.o
+[65/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdmerge-8.c.o
+[66/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdmerge-12.c.o
+[67/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdpostct-8.c.o
+[68/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdphuff.c.o
+[69/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdpostct-16.c.o
+[70/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdpostct-12.c.o
+[71/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdtrans.c.o
+[72/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdsample-8.c.o
+[73/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdsample-12.c.o
+[74/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jerror.c.o
+[75/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jdsample-16.c.o
+[76/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jfdctflt.c.o
+[77/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jfdctfst-8.c.o
+[78/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jfdctfst-12.c.o
+[79/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jfdctint-8.c.o
+[80/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jfdctint-12.c.o
+[81/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jidctflt-8.c.o
+[82/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jidctflt-12.c.o
+[83/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jidctfst-8.c.o
+[84/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jidctfst-12.c.o
+[85/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jidctred-8.c.o
+[86/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jidctred-12.c.o
+[87/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jmemnobs.c.o
+[88/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jpeg_nbits.c.o
+[89/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jmemmgr.c.o
+[90/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jidctint-8.c.o
+[91/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jidctint-12.c.o
+[92/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jquant1-8.c.o
+[93/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jquant1-12.c.o
+[94/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jutils-8.c.o
+[95/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jutils-12.c.o
+[96/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jutils-16.c.o
+[97/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jaricom.c.o
+[98/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jquant2-8.c.o
+[99/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/jquant2-12.c.o
+[100/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jcarith.c.o
+[101/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdarith.c.o
+[102/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdatadst-tj.c.o
+[103/130] Building C object CMakeFiles/turbojpeg-static.dir/src/jdatasrc-tj.c.o
+[104/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/rdpng-8.c.o
+[105/130] Building C object CMakeFiles/turbojpeg-static.dir/src/rdbmp.c.o
+[106/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/rdpng-12.c.o
+[107/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/rdpng-16.c.o
+[108/130] Building C object CMakeFiles/turbojpeg-static.dir/src/transupp.c.o
+[109/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/rdppm-8.c.o
+[110/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/rdppm-12.c.o
+[111/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrbmp.c.o
+[112/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/rdppm-16.c.o
+[113/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/wrpng-8.c.o
+[114/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/wrpng-12.c.o
+[115/130] Building C object CMakeFiles/turbojpeg-static.dir/src/turbojpeg.c.o
+[116/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/wrppm-8.c.o
+[117/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/wrppm-12.c.o
+[118/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/wrpng-16.c.o
+[119/130] Building C object CMakeFiles/turbojpeg-static.dir/src/wrapper/wrppm-16.c.o
+[120/130] Building C object src/spng/CMakeFiles/zlib-static.dir/zlib/compress.c.o
+[121/130] Building C object src/spng/CMakeFiles/zlib-static.dir/zlib/adler32.c.o
+[122/130] Building C object src/spng/CMakeFiles/zlib-static.dir/zlib/crc32.c.o
+[123/130] Building C object src/spng/CMakeFiles/zlib-static.dir/zlib/inffast.c.o
+[124/130] Building C object src/spng/CMakeFiles/zlib-static.dir/zlib/inftrees.c.o
+[125/130] Building C object src/spng/CMakeFiles/zlib-static.dir/zlib/zutil.c.o
+[126/130] Building C object src/spng/CMakeFiles/zlib-static.dir/zlib/deflate.c.o
+[127/130] Building C object src/spng/CMakeFiles/zlib-static.dir/zlib/inflate.c.o
+[128/130] Building C object src/spng/CMakeFiles/zlib-static.dir/zlib/trees.c.o
+[129/130] Building C object src/spng/CMakeFiles/spng-static.dir/spng.c.o
+[130/130] Linking C static library libturbojpeg.a
+[7/10] No install step for 'jpeg_native'
+[8/10] Completed 'jpeg_native'
+[9/10] Building C object CMakeFiles/mobileskinxai_codec.dir/codec.c.o
+[10/10] Linking C shared library libmobileskinxai_codec.so

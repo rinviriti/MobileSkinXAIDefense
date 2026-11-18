@@ -1,0 +1,33 @@
+name: Defense source checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 -B scripts/audit_repository.py
+      - run: python3 -B scripts/check_evaluation.py
+      - run: python3 -B -m unittest discover -s tests -v
+  flutter-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.50.0'
+          channel: stable
+      - run: flutter pub get
+        working-directory: app/flutter
+      - run: flutter analyze --no-fatal-infos
+        working-directory: app/flutter
+      - run: flutter test --no-pub --reporter expanded
+        working-directory: app/flutter

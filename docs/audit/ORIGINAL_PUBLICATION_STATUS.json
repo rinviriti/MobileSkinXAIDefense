@@ -1,0 +1,42 @@
+{
+  "status": "LOCAL_CANDIDATE_VERIFIED_REMOTE_PUBLICATION_BLOCKED",
+  "branch": "feature/mobile-skinxai-final-integration",
+  "local_commit": "36044b4f57f1051360b369afe0f7976e4af070f0",
+  "remote_main_modified_by_this_task": false,
+  "pull_request": null,
+  "github_release": null,
+  "github_write_failure": "403 Resource not accessible by integration on create_blob and create_branch",
+  "git_cli": "No noninteractive credentials",
+  "archive": "release_dist/MobileSkinXAI-v2026.11.18-research-integration.zip",
+  "archive_bytes": 45632321,
+  "archive_sha256": "743ba5cc552008d1e6b68c4df8ca06735a7822f1437d4c146ee39e09ad1f341e",
+  "archive_files_verified_on_extraction": 1037,
+  "model_bytes": 10073864,
+  "model_sha256": "8b6e19f3d8d0dd9c3b798a2cf99c0525079b9de4ea2f5d1708dd928a718412f3",
+  "validation": {
+    "aggregate_metrics_confusion_rows": 48,
+    "python_ast_files": 150,
+    "controller_tests": "11/11 PASS",
+    "flutter_tests_including_ui_capture": "6/6 PASS",
+    "clean_source_native_rebuild": "PASS",
+    "rebuilt_native_flutter_classifier_tests": "4/4 PASS",
+    "archive_extracted_pytorch_tflite_parity": "4/4 PASS; unchanged original tolerances",
+    "flutter_analyze": "0 errors,0 warnings,5 existing infos; --no-fatal-infos exit0",
+    "secret_review": "320 entropy-only findings reviewed; no credential detector findings",
+    "source_data_privacy": "Full datasets/private metadata excluded; bounded licensed anonymous fixtures/images only; publication notebook outputs stripped",
+    "android_build": "Not verified: local SDK/NDK unavailable",
+    "ios_build": "Not verified: macOS/Xcode unavailable; CI supplied but not executed",
+    "physical_device": "Not performed",
+    "float16": "Failed parity; excluded"
+  },
+  "remaining_actions": [
+    "Repository Contents/workflow write access or authenticated Git CLI",
+    "Push local branch and create PR",
+    "Pass all CI including native iOS and unsigned app build",
+    "Normal protected-branch-compliant squash merge",
+    "Create/verify release after checks",
+    "Physical iPhone acquisition/inference verification"
+  ],
+  "original_artifacts": "Preserved; local publication worktree only",
+  "historical_notebook_notice": "Older notebook outputs already exist in base Git history. Publication copy strips them; this task does not rewrite shared history."
+}

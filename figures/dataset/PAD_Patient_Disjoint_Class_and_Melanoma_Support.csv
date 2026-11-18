@@ -1,0 +1,13 @@
+Partition,Class,Images,Declared lesions,Patients with class
+Train,NV,139,124,116
+Train,MEL,30,20,20
+Train,BCC,503,388,344
+Train,SCC,109,84,80
+Validation,NV,47,41,32
+Validation,MEL,10,7,7
+Validation,BCC,167,129,81
+Validation,SCC,37,28,25
+Test,NV,47,41,28
+Test,MEL,10,7,7
+Test,BCC,167,129,82
+Test,SCC,37,28,23

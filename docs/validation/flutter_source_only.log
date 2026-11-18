@@ -1,0 +1,13 @@
+00:00 +0: loading /tmp/MobileSkinXAIDefense/app/flutter/test/missing_model_test.dart
+00:00 +0: /tmp/MobileSkinXAIDefense/app/flutter/test/missing_model_test.dart: Missing model fails explicitly and supports retry without predictions
+00:00 +1: /tmp/MobileSkinXAIDefense/app/flutter/test/missing_model_test.dart: Review screen shows missing-model state and disables analysis
+00:00 +1 ~1: /tmp/MobileSkinXAIDefense/app/flutter/test/missing_model_test.dart: Review screen shows missing-model state and disables analysis
+00:00 +1 ~2: /tmp/MobileSkinXAIDefense/app/flutter/test/missing_model_test.dart: Review screen shows missing-model state and disables analysis
+00:00 +2 ~2: /tmp/MobileSkinXAIDefense/app/flutter/test/missing_model_test.dart: Review screen shows missing-model state and disables analysis
+00:00 +3 ~2: /tmp/MobileSkinXAIDefense/app/flutter/test/missing_model_test.dart: Review screen shows missing-model state and disables analysis
+00:00 +4 ~2: /tmp/MobileSkinXAIDefense/app/flutter/test/missing_model_test.dart: Review screen shows missing-model state and disables analysis
+00:00 +4 ~2: /tmp/MobileSkinXAIDefense/app/flutter/test/classifier_test.dart: Application service: real asset + native raw preprocessing + real TFLite
+  Skip: Requires fixed development manifest and built native codec; pass MSX_GOLDEN_MANIFEST and MSX_CODEC_LIBRARY dart-defines.
+00:00 +4 ~3: /tmp/MobileSkinXAIDefense/app/flutter/test/missing_model_test.dart: Review screen shows missing-model state and disables analysis
+00:00 +5 ~3: /tmp/MobileSkinXAIDefense/app/flutter/test/widget_test.dart: Original app home and theme remain available
+00:00 +6 ~3: All tests passed!
