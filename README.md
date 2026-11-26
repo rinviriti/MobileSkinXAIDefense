@@ -21,7 +21,7 @@ flutter test
 flutter build ios --release --no-codesign
 ```
 
-Install/configure Flutter, Xcode, CocoaPods and CMake first; follow [the complete Mac/iPhone guide](docs/IOS_DEPLOYMENT_GUIDE.md). Source baseline: Flutter 3.50.0 / Dart 3.12 constraint, locked tflite_flutter 0.12.1, iOS target 15.0. No iOS build or physical iPhone success is claimed. Native codec source is included; its XCFramework must be built on Mac. Use a unique bundle ID and your own Apple signing identity for a phone. No certificates or provisioning profiles are included.
+Install/configure Flutter, Xcode, CocoaPods and CMake first; follow [the complete Mac/iPhone guide](docs/IOS_DEPLOYMENT_GUIDE.md). Source baseline: Flutter 3.50.1 / Dart 3.14 constraint, material_ui ^1.11.1, locked tflite_flutter 0.12.1, iOS target 15.0. No iOS build or physical iPhone success is claimed. Native codec source is included; its XCFramework must be built on Mac. Use a unique bundle ID and your own Apple signing identity for a phone. No certificates or provisioning profiles are included.
 
 ## Contents
 

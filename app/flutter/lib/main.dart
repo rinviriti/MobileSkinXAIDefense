@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'screens/home_screen.dart';
 
 void main() {
@@ -7,7 +7,7 @@ void main() {
 }
 
 class MobileSkinXAIApp extends StatelessWidget {
-  const MobileSkinXAIApp({super.key});
+  const new({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -38,6 +38,11 @@ class MobileSkinXAIApp extends StatelessWidget {
           ),
         ),
       ),
+      // Bridge legacy Material theme/localizations in third-party widgets.
+      builder: (BuildContext context, Widget? child) {
+        // ignore: deprecated_member_use
+        return MaterialUiCompatibilityBridge(child: child!);
+      },
       home: const HomeScreen(),
     );
   }

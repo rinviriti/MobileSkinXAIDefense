@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class ResultsScreen extends StatelessWidget {
-  const ResultsScreen({
+  const new({
     super.key,
     required this.imageBytes,
     required this.imageName,
