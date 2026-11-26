@@ -1,12 +1,12 @@
 import 'dart:typed_data';
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import '../services/skin_classifier.dart';
 
 import 'results_screen.dart';
 
 class AnalysisScreen extends StatefulWidget {
-  const AnalysisScreen({
+  const new({
     super.key,
     required this.imageBytes,
     required this.imageName,
