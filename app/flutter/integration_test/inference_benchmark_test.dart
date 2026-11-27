@@ -151,6 +151,7 @@ void main() {
           'rss_samples_bytes': metrics.rssBytes,
         };
         caseSummaries.add(caseReport);
+        // ignore: avoid_print
         print('MSX_BENCHMARK_CASE_JSON=${jsonEncode(caseReport)}');
       }
       final rssAfterBenchmark = ProcessInfo.currentRss;
@@ -163,7 +164,7 @@ void main() {
             defaultValue: 'unspecified'),
         'device_name': const String.fromEnvironment('MSX_DEVICE_NAME',
             defaultValue: 'unspecified'),
-        'model': 'E2 LR Control Float32 v20261118',
+        'model_version': 'E2 LR Control Float32 v20261118',
         'input': 'Four fixed, checksum-verified ISIC development-validation JPEGs',
         'warmup_rounds': _warmupRounds,
         'measured_rounds': _measuredRounds,
@@ -191,6 +192,7 @@ void main() {
             'debug results are exploratory, not physical-device benchmarks.',
       };
       IntegrationTestWidgetsFlutterBinding.instance.reportData = report;
+      // ignore: avoid_print
       print('MSX_BENCHMARK_SUMMARY_JSON=${jsonEncode(report)}');
     } finally {
       classifier.dispose();
