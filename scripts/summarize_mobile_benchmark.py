@@ -86,7 +86,7 @@ def main() -> None:
             for i, (model, full, rss) in enumerate(zip(
                     case['model_samples_ms'],
                     case['end_to_end_samples_ms'],
-                    case['rss_samples_bytes'], strict=True), 1):
+                    case['rss_samples_bytes']), 1):
                 writer.writerow([case['image'], i, model, full, rss])
 
     print(f'Saved {args.out_dir / "benchmark_summary.json"}')
